@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using DotNet.Meteor.HotReload.Plugin;
 
 namespace TelkoMomentApp
 {
@@ -19,6 +20,7 @@ namespace TelkoMomentApp
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
+            builder.EnableHotReload();
 #endif
 
             return builder.Build();
