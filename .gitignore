@@ -738,3 +738,4 @@ dist
 
 *.odt#
 *.odt#
+mobile/.meteor/
