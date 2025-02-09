@@ -15,4 +15,6 @@ slashing for react native instead - [https://youtu.be/gvkqT_Uoahw]
 
 https://gluestack.io/
 
+-- used Expo core: [<https://docs.expo.dev/tutorial/create-your-first-app/>]
+
 And, nativewind: https://www.nativewind.dev/
