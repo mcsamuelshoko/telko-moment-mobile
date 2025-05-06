@@ -740,3 +740,7 @@ dist
 *.odt#
 mobile/.meteor/
 .vscode/
+
+.nx/installation
+.nx/cache
+.nx/workspace-data
