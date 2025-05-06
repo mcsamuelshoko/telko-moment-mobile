@@ -1,0 +1,47 @@
+{
+    "name": "webapp",
+    "root": "apps/webapp",
+    "sourceRoot": "apps/webapp",
+    "projectType": "application",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "vite --open",
+                "cwd": "apps/webapp"
+            }
+        },
+        "dev-task": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "vite",
+                "cwd": "apps/webapp"
+            }
+        },
+        "build": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "tsc && vite build",
+                "cwd": "apps/webapp",
+                "outputs": [
+                    "dist/apps/webapp"
+                ]
+            }
+        },
+        "start-remote": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "vite --host",
+                "cwd": "apps/webapp"
+            }
+        },
+        "deploy": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "npx @azure/static-web-apps-cli login --no-use-keychain && npx @azure/static-web-apps-cli deploy",
+                "cwd": "apps/webapp"
+            }
+        }
+    },
+    "tags": []
+}
