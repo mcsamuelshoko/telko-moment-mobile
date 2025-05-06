@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TelkoMomentMobileApp",
-    "slug": "@telko-moment-mobile/telko-moment-mobile-app",
+    "slug": "@telko-moment-mobile/mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

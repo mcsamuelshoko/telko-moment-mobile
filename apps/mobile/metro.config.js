@@ -12,7 +12,7 @@ const { assetExts, sourceExts } = defaultConfig.resolver;
  * @type {import('metro-config').MetroConfig}
  */
 const customConfig = {
-  cacheVersion: '@telko-moment-mobile/telko-moment-mobile-app',
+  cacheVersion: '@telko-moment-mobile/mobile',
   transformer: {
     babelTransformerPath: require.resolve('react-native-svg-transformer'),
   },
