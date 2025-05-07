@@ -1,7 +1,11 @@
+// Learn more https://docs.expo.io/guides/customizing-metro
+
 const { withNxMetro } = require('@nx/expo');
 const { getDefaultConfig } = require('@expo/metro-config');
+const { withNativeWind } = require("nativewind/metro");
 const { mergeConfig } = require('metro-config');
-
+/** @type {import('expo/metro-config').MetroConfig} */
+const config = getDefaultConfig(__dirname);
 const defaultConfig = getDefaultConfig(__dirname);
 const { assetExts, sourceExts } = defaultConfig.resolver;
 
@@ -31,3 +35,5 @@ module.exports = withNxMetro(mergeConfig(defaultConfig, customConfig), {
   // Specify folders to watch, in addition to Nx defaults (workspace libraries and node_modules)
   watchFolders: [],
 });
+
+module.exports = withNativeWind(config, { input: "./global.css" });
