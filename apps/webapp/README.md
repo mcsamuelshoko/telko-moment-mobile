@@ -33,3 +33,22 @@ With it you get an app that:
 - Uses the [Azure Static Web Apps CLI](https://azure.github.io/static-web-apps-cli) which enables emulating your production environment locally, and gets you ready for deploying to Azure Static Web Apps!
 
 and all with just a few button clicks 😊.
+
+---
+
+
+---
+
+[<https://bestofjs.org/projects?tags=browser-storage>]
+
+- [<https://dev.to/johannesjo/choosing-the-right-frontend-database-41lo>]
+- [<https://bestofjs.org/projects/rxdb>]
+- [<https://www.smashingmagazine.com/2022/08/databases-frontend-developers-rise-serverless-databases/>]
+
+- [<https://www.youtube.com/watch?v=tDWmfenF2AM&pp=ygUEcnhkYg%3D%3D>]
+
+- search indexing [<https://lunrjs.com/guides/getting_started.html>]
+
+[<https://redux.js.org/introduction/getting-started>]
+
+[<https://github.com/thepassle/app-tools/blob/master/router/README.md>]
