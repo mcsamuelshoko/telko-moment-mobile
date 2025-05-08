@@ -1,6 +1,10 @@
 {
   "name": "telko-moment-website",
   "private": true,
-  "version": "0.0.1"
-
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  }
 }
