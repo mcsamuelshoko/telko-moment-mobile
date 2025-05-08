@@ -4,17 +4,24 @@
     "sourceRoot": "apps/website",
     "projectType": "application",
     "targets": {
+        "astro": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "astro",
+                "cwd": "apps/website"
+            }
+        },
         "dev": {
             "executor": "nx:run-commands",
             "options": {
-                "command": "vite",
+                "command": "astro dev",
                 "cwd": "apps/website"
             }
         },
         "build": {
             "executor": "nx:run-commands",
             "options": {
-                "command": "tsc && vite build",
+                "command": "astro build",
                 "cwd": "apps/website",
                 "outputs": [
                     "dist/apps/website"
@@ -24,7 +31,7 @@
         "preview": {
             "executor": "nx:run-commands",
             "options": {
-                "command": "vite preview",
+                "command": "astro preview",
                 "cwd": "apps/website"
             }
         }

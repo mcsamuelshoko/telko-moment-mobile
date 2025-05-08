@@ -55,6 +55,7 @@
     "@tailwindcss/postcss": "^4.1.5",
     "@tailwindcss/vite": "^4.1.5",
     "@thepassle/app-tools": "^0.9.12",
+    "astro": "^5.7.11",
     "expo": "~52.0.11",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.5",
