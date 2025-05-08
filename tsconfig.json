@@ -4,10 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/telko-moment-mobile"
-    },
-    {
-      "path": "./apps/telko-moment-mobile-app"
+      "path": "./apps/mobile"
     }
   ]
 }
