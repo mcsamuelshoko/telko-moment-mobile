@@ -52,3 +52,10 @@ and all with just a few button clicks 😊.
 [<https://redux.js.org/introduction/getting-started>]
 
 [<https://github.com/thepassle/app-tools/blob/master/router/README.md>]
+
+
+
+
+
+React conf react query: [<https://youtu.be/seU46c6Jz7E>]
+[<https://youtu.be/seU46c6Jz7E?t=1087>]
