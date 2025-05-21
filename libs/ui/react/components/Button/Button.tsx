@@ -1,11 +1,10 @@
 import React from 'react';
 
-import styles from './Button.css';
 
 export interface ButtonProps {
   prop?: string;
 }
 
 export function Button({prop = 'default value'}: ButtonProps) {
-  return <div className={styles.Button}>Button {prop}</div>;
+  return <button className={"bg-green-500 rounded-sm p-1 px-2"}>{prop ?? "Button"}</button>;
 }
